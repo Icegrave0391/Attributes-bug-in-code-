@@ -15,6 +15,7 @@
 		088071C320577A3100310D62 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 088071C220577A3100310D62 /* main.m */; };
 		088071CD20577A3100310D62 /* AttributesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088071CC20577A3100310D62 /* AttributesTests.m */; };
 		088071D820577A3100310D62 /* AttributesUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088071D720577A3100310D62 /* AttributesUITests.m */; };
+		08F27D0C20596ED0003D5630 /* TextStatusViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 08F27D0B20596ED0003D5630 /* TextStatusViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		088071D320577A3100310D62 /* AttributesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AttributesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		088071D720577A3100310D62 /* AttributesUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AttributesUITests.m; sourceTree = "<group>"; };
 		088071D920577A3100310D62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08F27D0A20596ED0003D5630 /* TextStatusViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TextStatusViewController.h; sourceTree = "<group>"; };
+		08F27D0B20596ED0003D5630 /* TextStatusViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TextStatusViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				088071B420577A3100310D62 /* AppDelegate.m */,
 				088071B620577A3100310D62 /* ViewController.h */,
 				088071B720577A3100310D62 /* ViewController.m */,
+				08F27D0A20596ED0003D5630 /* TextStatusViewController.h */,
+				08F27D0B20596ED0003D5630 /* TextStatusViewController.m */,
 				088071B920577A3100310D62 /* Main.storyboard */,
 				088071BC20577A3100310D62 /* Assets.xcassets */,
 				088071BE20577A3100310D62 /* LaunchScreen.storyboard */,
@@ -266,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				088071B820577A3100310D62 /* ViewController.m in Sources */,
+				08F27D0C20596ED0003D5630 /* TextStatusViewController.m in Sources */,
 				088071C320577A3100310D62 /* main.m in Sources */,
 				088071B520577A3100310D62 /* AppDelegate.m in Sources */,
 			);
